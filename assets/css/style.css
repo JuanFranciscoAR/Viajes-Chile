@@ -1,0 +1,148 @@
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+	
+}  
+
+/* Estilo para el <h1> con la fuente "Open Sans" en negrita */
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #212529;;
+}
+
+p, h2, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+.custom-navbar {
+    background-color: #28a745; /* Reemplaza #FF0000 con el código hexadecimal o el nombre del color deseado */
+    /* Otros estilos personalizados para el navbar */
+}
+
+.colortarjetas {
+    background-color: #17a2b8 ; /* Reemplaza #FF0000 con el código hexadecimal o el nombre del color deseado */
+    /* Otros estilos personalizados para el navbar */
+}
+
+.textogrande {
+
+    font-size: 4.5rem; /* Ajusta el tamaño deseado en 'rem' */
+
+}
+
+.text-white {
+    color: #fff;
+}
+
+.colorwhite {
+    color: #fff;
+}
+
+.espacio {
+    margin-bottom: 10.5rem;
+    margin-top: 6.5rem;
+}
+
+/*container especifico*/
+.custom-container-width {
+    max-width: 950px; /* Ancho máximo deseado */
+}
+
+#ico {
+    margin-left: 15rem;
+    padding-right: 10rem;
+}
+
+#text {
+    margin-left: 5rem;
+    padding-left: 10rem;
+}
+
+
+.navbar-toggler  {
+    border-color: #fff;
+    color: #636363;
+    background-color:rgb(255, 255, 255, 0.7);
+    
+} 
+
+.navbar-toggler .navbar-toggler-icon {
+    border-color: #fff;
+
+}
+
+/**mover section*/
+
+
+/*solucion problema img y navbar*/
+.custom-navbar {
+    position: relative;
+    z-index: 9999;
+}
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+.hero-banner {
+    background-image: url("/Assets/img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh; /* Ajusta la altura según tus necesidades */
+
+  }
+
+  .hero-banner .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #F8F9FA /* Ajusta el color de texto según tus necesidades */
+  }
+  
+  .hero-banner h1 {
+    font-size: 3rem; /* Ajusta el tamaño de fuente según tus necesidades */
+    margin-bottom: 1rem; /* Ajusta el margen inferior según tus necesidades */
+  }
+  
+  .hero-banner p {
+    font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus necesidades */
+    margin-bottom: 2rem; /* Ajusta el margen inferior según tus necesidades */
+  }
+  
+  .hero-banner button {
+    margin-right: 1rem; /* Ajusta el margen derecho según tus necesidades */
+  }
+
+
+/*fondo cards*/
+.fondo-card {
+  background-color: #28a745;  
+}
+
+.white-color {
+    color: #fff;
+}
+
+.backgraund-white {
+    background-color: #fff;
+}
+
+.backgraund-footer {
+     background-color: #ffffff;
+}
+
+.color_btn-card {
+	color: #28a745;
+}
+
+.fondo-footer {
+    background-color: #fff;
+}
