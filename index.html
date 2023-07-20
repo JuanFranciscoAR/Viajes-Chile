@@ -44,7 +44,7 @@
             </button>
 
             <div class="collapse navbar-collapse opacity-75" id="navbarNav">
-
+                <!--Escritorio-->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active fs-4 text-white pe-3" aria-current="page" href="#inicio">Inicio</a>
@@ -62,6 +62,7 @@
                         <a class="nav-link fs-4 text-white" href="#contacto">Contacto</a>
                     </li>
                 </ul>
+                
             </div>
         </div>
     </nav>
@@ -92,7 +93,7 @@
     </header>
 
     <!--Fila 3 parrafos-->
-    <section id="somos" class="pt-5 container-fluid bg-dark pb-5">
+    <section id="somos" class="pt-5 container-fluid bg-dark pb-5 d-none d-md-block">
         <div class="container">
             <div class="row justify-content-center">
                 <h2 class="text-center pt-5 pb-5 text-white fs-1">¿QUIÉNES SOMOS?</h2>
@@ -154,7 +155,7 @@
 
 
     <!--card-->
-    <section id="destacados" class="pt-5 container-fluid bg-dark pb-5">
+    <section id="destacados" class="pt-5 container-fluid bg-dark pb-5 d-none d-md-block">
         <div class="container">
             <div class="row ">
                 <h2 class="text-center pt-5 pb-5 text-white fs-1">DESTACADOS</h2>
@@ -209,6 +210,65 @@
             </div>
         </div>
     </section>
+    
+    <!--card movil-->
+    <section id="destacados" class="pt-5 container-fluid bg-dark pb-5 d-block d-sm-none justify-content-center">
+        <div class="container ">
+            <div class="row ">
+                <h2 class="text-center pt-5 pb-5 text-white fs-1">DESTACADOS</h2>
+                <div class="col-12 col-md-3 mb-4  ">
+                    <div class="d-flex flex-column cardcolor text-white">
+                        <img src="assets/img/card1.jpg" class="card-img-top " alt="colaciones">
+                        <div class="card-body">
+                            <h2 class=" fs-1 pe-3 ps-3 pt-3 card-title ">Anímate a viajar</h2>
+                            <p class=" fs-5 pe-3 ps-3 pt-2 pb-5">Mus enim elementum dignissim class eleifend justo,
+                                ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 mb-4 pb-5">
+                    <div class="d-flex flex-column cardcolor text-white">
+                        <img src="assets/img/card2.jpg" class="card-img-top " alt="colaciones">
+                        <div class="card-body">
+                            <h2 class=" fs-1 card-title pe-3 ps-3 pt-3">Anímate a viajar</h2>
+                            <p class=" fs-5  pe-3 ps-3 pt-2 pb-5">Congue fermentum dignissim rhoncus elementum ac nisi,
+                                proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 mb-4 ">
+                    <div class="d-flex flex-column cardcolor text-white">
+                        <img src="assets/img/card3.jpg" class="card-img-top " alt="colaciones">
+                        <div class="card-body">
+                            <h2 class=" fs-1 pe-3 ps-3 pt-3 card-title ">Anímate a viajar</h2>
+                            <p class=" fs-5 pe-3 ps-3 pt-2 pb-5">Cubilia elementum posuere arcu rhoncus egestas lectus
+                                diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 mb-4 ">
+                    <div class="d-flex flex-column cardcolor text-white">
+                        <img src="assets/img/card4.jpg" class="card-img-top " alt="colaciones">
+                        <div class="card-body">
+                            <h2 class=" fs-1 pe-3 ps-3 pt-3 card-title ">Anímate a viajar</h2>
+                            <p class=" fs-5  pe-3 ps-3 pt-2 pb-5">Cubilia elementum posuere arcu rhoncus egestas lectus
+                                diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <section id="contacto" class="bg-dark">
         <div class=" p-5">
@@ -261,7 +321,7 @@
 
     </section>
 
-    <footer class="container-fluid pb-3 pt-5 cardcolor ">
+    <footer class="container-fluid pb-3 pt-5 cardcolor d-none d-sm-block">
         <div class="container ">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-4 mb-4">
@@ -272,6 +332,23 @@
                     <i class="fab fa-twitter fa-2x pe-3 colorwhite "></i></a>
                     <i class="fab fa-linkedin fa-2x pe-3 colorwhite "></i></a>
                     <i class="fab fa-facebook fa-2x pe-3 colorwhite "></i></a>
+    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="container-fluid pb-5 pt-5 cardcolor d-block d-sm-none mb-4">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h2 class="text-white ps-4">VIAJES CHILE</h2>
+                </div>
+                <div class="col-6">
+                    <i class="fab fa-github fa-2x pe-3 colorwhite "></i></a>
+                    <i class="fab fa-twitter fa-2x pe-3 colorwhite "></i></a>
+                    <i class="fab fa-linkedin fa-2x pe-3 colorwhite "></i></a>
+                    <i class="fab fa-facebook fa-2x colorwhite "></i></a>
     
                 </div>
             </div>
