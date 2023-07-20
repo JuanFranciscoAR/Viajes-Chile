@@ -34,7 +34,7 @@
 <body>
 
 
-    <nav class="navbar fixed-top navbar-expand-lg  container-fluid pt-3">
+    <nav  class="navbar fixed-top navbar-expand-lg  container-fluid pt-3">
         <div class="container mt-2 mb-2 me-5 ms-5 ps-5">
             <a class="navbar-brand text-light  ps-5 fs-3" href="#"><img src="Assets/img/viajes.svg" class="opacity-80"
                     title="Viajes Chile" alt="logo" width="25rem" height="auto"> Viajes Chile</a>
@@ -47,19 +47,19 @@
 
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active fs-4 text-white pe-3" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active fs-4 text-white pe-3" aria-current="page" href="#inicio">Inicio</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link fs-4 text-white pe-3" href="#">Quienes somos</a>
+                        <a class="nav-link fs-4 text-white pe-3" href="#somos">Quienes somos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link fs-4 text-white pe-3" href="#">Destacados</a>
+                        <a class="nav-link fs-4 text-white pe-3" href="#destacados">Destacados</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link fs-4 text-white" href="#">Contacto</a>
+                        <a class="nav-link fs-4 text-white" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -67,7 +67,7 @@
     </nav>
 
     <!--carrusel-->
-    <header>
+    <header id="inicio">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -92,7 +92,7 @@
     </header>
 
     <!--Fila 3 parrafos-->
-    <section class="pt-5 container-fluid bg-dark pb-5">
+    <section id="somos" class="pt-5 container-fluid bg-dark pb-5">
         <div class="container">
             <div class="row justify-content-center">
                 <h2 class="text-center pt-5 pb-5 text-white fs-1">¿QUIÉNES SOMOS?</h2>
@@ -154,10 +154,10 @@
 
 
     <!--card-->
-    <section class="pt-5 container-fluid bg-dark pb-5">
+    <section id="destacados" class="pt-5 container-fluid bg-dark pb-5">
         <div class="container">
             <div class="row ">
-                <h2 class="text-center pt-5 pb-5 text-white fs-1">RECETAS RELACIONADAS</h2>
+                <h2 class="text-center pt-5 pb-5 text-white fs-1">DESTACADOS</h2>
                 <div class="col-12 col-md-3 mb-4  ">
                     <div class="d-flex flex-column cardcolor text-white" style="width: 25rem;">
                         <img src="assets/img/card1.jpg" class="card-img-top " alt="colaciones">
@@ -210,7 +210,7 @@
         </div>
     </section>
 
-    <section class="bg-dark">
+    <section id="contacto" class="bg-dark">
         <div class=" p-5">
             <h2 class="text-center fs-1 text-light ">CONTACTO</h2>
             <div class="mx-auto" style="max-width: 65rem;"> <!-- Contenedor adicional con margen -->
@@ -261,11 +261,21 @@
 
     </section>
 
-    <footer class="container-fluid pb-3 pt-5 cardcolor">
-        <div class="d-flex justify-content-center">
-            <img src="Assets/img/logo-black.png" alt="logo" width="120rem" height="auto">
+    <footer class="container-fluid pb-3 pt-5 cardcolor ">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 mb-4">
+                    <h2 class="text-white">VIAJES CHILE</h2>
+                </div>
+                <div class="col-12 col-md-4 mb-4 text-end">
+                    <i class="fab fa-github fa-2x pe-3 colorwhite "></i></a>
+                    <i class="fab fa-twitter fa-2x pe-3 colorwhite "></i></a>
+                    <i class="fab fa-linkedin fa-2x pe-3 colorwhite "></i></a>
+                    <i class="fab fa-facebook fa-2x pe-3 colorwhite "></i></a>
+    
+                </div>
+            </div>
         </div>
-        <p class="text-white fs-5 text-center">Diseñado por Juan Francisco Armijo Reyes</p>
     </footer>
 
 
@@ -273,7 +283,7 @@
 
 
     <!--resuelve Problemas footer-->
-    <div class="container m-5 p-5 d-lg-none ">
+    <div class="container m-2 p-2 d-lg-none ">
         <h1 class="container m-4 p-4 text-black">calor</h1>
     </div>
 
