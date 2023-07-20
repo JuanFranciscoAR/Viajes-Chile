@@ -33,29 +33,32 @@
 
 <body>
 
-
-    <nav class="navbar fixed-top navbar-expand-lg custom-navbar">
+    
+    <nav class="navbar fixed-top navbar-expand-lg  container mt-3">
         <div class="container-fluid mt-2 mb-2 me-5 ms-5">
-            <a class="navbar-brand " href="#"><img src="Assets/img/logo-white.png" alt="logo" width="120rem"
-                    height="auto"></a>
+            <a class="navbar-brand text-light fs-3" href="#"><img src="Assets/img/viajes.svg" class="opacity-80" title="Viajes Chile" alt="logo" width="25rem" height="auto" > Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse opacity-75" id="navbarNav">
 
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active fs-5 text-white" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active fs-4 text-white pe-3" aria-current="page" href="#">Inicio</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link fs-5 text-white" href="#">Producto</a>
+                        <a class="nav-link fs-4 text-white pe-3" href="#">Quienes somos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link fs-5 text-white" href="#">Contacto</a>
+                        <a class="nav-link fs-4 text-white pe-3" href="#">Destacados</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 text-white" href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -63,24 +66,26 @@
     </nav>
 
     <header>
-        <div class="hero-banner container-fluid d-none d-md-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 d-flex flex-column align-items-end me-lg-5 ms-lg-auto pe-lg-5 ps-lg-5">
-                        <h1 class="text-end display-4 text-white">Comidas del fin del mundo</h1>
-                        <div class="text-end">
-                            <div class="container-fluid">
-                                <p class="lead">Lorem ipsum a nibh vitae ipsum justo, in eleifend leo tincidunt in.
-                                    Maecenas pellentesque vestibulum ipsum et congue. Lorem ipsum dolcing elit. Mauris
-                                    placerat elit sed ante iaculis dapibus. Praesent ac euismod ligula.</p>
-                            </div>
-                            <div class="d-flex justify-content-end">
-                                <button class="btn btn-lg fondo-card text-white">Conocer Más</button>
-                            </div>
-                        </div>
-                    </div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="auto">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </header>
 
