@@ -18,26 +18,8 @@ p, h2, h2, h3, h4, h5 {
 }
 
 
-.custom-navbar {
-    background-color: #28a745; /* Reemplaza #FF0000 con el código hexadecimal o el nombre del color deseado */
-    /* Otros estilos personalizados para el navbar */
-}
 
-.colortarjetas {
-    background-color: #17a2b8 ; /* Reemplaza #FF0000 con el código hexadecimal o el nombre del color deseado */
-    /* Otros estilos personalizados para el navbar */
-}
-
-.textogrande {
-
-    font-size: 4.5rem; /* Ajusta el tamaño deseado en 'rem' */
-
-}
-
-.text-white {
-    color: #fff;
-}
-
+/*color icono*/
 .colorwhite {
     color: #fff;
 }
@@ -47,10 +29,7 @@ p, h2, h2, h3, h4, h5 {
     margin-top: 6.5rem;
 }
 
-/*container especifico*/
-.custom-container-width {
-    max-width: 950px; /* Ancho máximo deseado */
-}
+
 
 #ico {
     margin-left: 15rem;
@@ -83,59 +62,22 @@ p, h2, h2, h3, h4, h5 {
     position: relative;
     z-index: 9999;
 }
-  
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
-    
-}
-
-
-
-  .hero-banner .container {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #F8F9FA /* Ajusta el color de texto según tus necesidades */
-  }
-  
-  .hero-banner h1 {
-    font-size: 3rem; /* Ajusta el tamaño de fuente según tus necesidades */
-    margin-bottom: 1rem; /* Ajusta el margen inferior según tus necesidades */
-  }
-  
-  .hero-banner p {
-    font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus necesidades */
-    margin-bottom: 2rem; /* Ajusta el margen inferior según tus necesidades */
-  }
-  
-  .hero-banner button {
-    margin-right: 1rem; /* Ajusta el margen derecho según tus necesidades */
-  }
 
 
 /*fondo cards*/
-.fondo-card {
-  background-color: #28a745;  
+
+/*menu fondo scroll*/
+/* Estilo inicial del navbar antes del scroll */
+.navbar {
+    transition: background-color 0.3s;
 }
 
-.white-color {
-    color: #fff;
+/* Estilo del navbar con fondo cuando se haga scroll */
+.navbar.scrolled {
+    background-color: rgb(49, 165, 169); /* Cambia "your_color_here" por el color deseado */
 }
 
-.backgraund-white {
-    background-color: #fff;
-}
 
-.backgraund-footer {
-     background-color: #ffffff;
-}
-
-.color_btn-card {
-	color: #28a745;
-}
-
-.fondo-footer {
-    background-color: #fff;
+.cardcolor {
+    background-color: rgb(49, 165, 169);
 }
